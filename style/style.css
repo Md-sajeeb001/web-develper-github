@@ -142,3 +142,48 @@ nav ul li a{
 .list-item p{
     margin-bottom: .8rem;
 }
+/* ================SKILLS ITEMS SECTION=============== */
+.skill-items{
+    max-width: 1200px;
+    height: auto;
+    margin: 5rem auto;
+}
+.skill-item{
+    padding: 5rem;
+}
+.tital{
+    text-align: center;
+    color: var(--first-color);
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 1rem 0;
+    text-shadow: 1px 1px 2px;
+}
+.skill-cart-conatiner{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.skill-cart{
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+.skill-cart img{
+    margin: .5rem 0;
+}
+.discription h3{
+    margin: .8rem 0;
+    color: var(--first-color);
+}
+.discription p{
+    color: var(--second-color);
+    font-size: 16px;
+}
+.peragharap{
+    max-width: 890px;
+    text-align: center;
+    margin: 0 auto;
+}
