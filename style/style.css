@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+:root{
+    --bg-color-:rgb(255, 248, 243);
+    --first-color:rgb(24, 24, 24);
+    --second-color:rgb(71, 71, 71);
+    --btn-color:rgb(253, 110, 10);
+    --text-color:#fff;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--bg-color-) ;
+}
+
+/* ==================HEADER SECTION================ */
+header{
+    background-image: url('/images/developer.png'), url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2.5rem 7rem 0 10rem ;
+}
+.name-logo{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px;
+}
+.name-logo span{
+    color: var(--btn-color);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin-right: 3rem;
+}
+nav ul li a{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--second-color);
+}
+.btn{
+    padding: .8rem 1.8rem;
+    background-color: var(--btn-color);
+    border: none;
+    border-radius: .5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.different{
+    background-color: var(--text-color);
+    color: var(--btn-color);
+    border: 3px solid var(--btn-color);
+}
+.btn i{
+    margin-right: .8rem;
+}
+
+/* =================BANNER SECTION================ */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+.banner-content{
+    max-width: 580px;
+    height: 350px;
+    margin-left: 4rem;
+}
+.banner-picture{
+    width: 480px;
+    height: 550px;
+}
+.gretting{
+    font-size: 2rem;
+    color: var(--second-color);
+    font-weight: 700;
+    margin: 1rem 0;
+}
+.tex-size{
+    font-size: 3rem;
+}
+.banner-content p{
+    font-size: 1rem;
+    color: var(--second-color);
+    font-weight: 600;
+    line-height: 1.9rem;
+    margin: 1.2rem 0;
+}
+
+/* ===============ABOUT SECITON============= */
+
