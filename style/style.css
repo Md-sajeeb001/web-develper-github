@@ -106,4 +106,39 @@ nav ul li a{
 }
 
 /* ===============ABOUT SECITON============= */
-
+.main-container{
+    margin: 5rem 0;
+}
+.about-section{
+    width: 1100px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: rgb(253, 228, 210);
+    padding: 5rem 8rem;
+    border-radius: .8rem;
+}
+.about-content{
+    text-align: center;
+}
+.about-content h3{
+    font-size: 2.5rem;
+    color: var(--first-color);
+    text-shadow: 1px 1px 2px;
+    text-decoration: underline;
+}
+.about-content p{
+    font-size: 1.1rem;
+    color: var(--second-color);
+}
+.about-content .margin{
+    margin: 2rem 0;
+}
+.list-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+.list-item p{
+    margin-bottom: .8rem;
+}
